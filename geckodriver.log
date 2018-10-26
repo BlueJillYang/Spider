@@ -1,0 +1,643 @@
+1540350573434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LNumx1PpeXt4"
+1540350576950	Marionette	INFO	Listening on port 44351
+1540350576957	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540350577022	Marionette	DEBUG	[2147483649] Frame script loaded
+1540350577022	Marionette	DEBUG	[2147483649] Frame script registered
+1540350633597	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540350633851	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540350634395	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.jd.com/
+1540350634809	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.jd.com/
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+
+(/usr/lib/firefox/firefox:11401): dconf-WARNING **: 11:15:58.523: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+1540351233330	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540351242188	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js, line 1480: TypeError: this._tabPool is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1540351305487	Marionette	INFO	Stopped listening on port 44351
+1540351895887	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ByE7fEPrvG67"
+1540351900621	Marionette	INFO	Listening on port 42201
+1540351900638	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540351900703	Marionette	DEBUG	[2147483649] Frame script loaded
+1540351900723	Marionette	DEBUG	[2147483649] Frame script registered
+1540351918676	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540351918869	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540351919240	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1540351919352	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.baidu.com/
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.baidu.com
+1540352058196	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540352066755	Marionette	INFO	Stopped listening on port 42201
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1540356184303	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qRuovWeS8pBT"
+1540356187368	Marionette	INFO	Listening on port 42817
+1540356187428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540356187538	Marionette	DEBUG	[2147483649] Frame script loaded
+1540356187548	Marionette	DEBUG	[2147483649] Frame script registered
+1540356204908	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540356205217	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540356205748	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.jd.com/
+1540356206136	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.jd.com/
+1540356296285	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.jd.com/
+console.error: "Error while calling actor 'pagestyle's method 'getComputed'" "node is null"
+console.error: "getComputed@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:227:5\nhandler@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1159:21\nonPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1783:15\nreceiveMessage@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:735:7\n"
+console.error: "Protocol error (unknownError): node is null"
+1540356296619	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.jd.com/
+1540356296622	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.jd.com/
+1540356296906	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1540356296907	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1540356296908	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1540356296909	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+
+(/usr/lib/firefox/firefox:12493): dconf-WARNING **: 12:44:57.082: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+1540356297666	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F
+1540356299184	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://passport.jd.com/new/login.aspx?ReturnUrl=https%3A%2F%2Fwww.jd.com%2F
+1540356328161	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://passport.jd.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1540356588858	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://www.jd.com
+1540356890918	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.jd.com/
+1540356891472	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.jd.com/
+1540356891474	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.jd.com/
+1540356892434	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://search.jd.com/Search?keyword=%E5%8D%8E%E4%B8%BA%E8%8D%A3%E8%80%80%E7%95%85%E7%8E%A98c&enc=utf-8&spm=a.0.0&pvid=c7c01be7f9fe492684a0da7181053a48
+1540356897377	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://search.jd.com/Search?keyword=%E5%8D%8E%E4%B8%BA%E8%8D%A3%E8%80%80%E7%95%85%E7%8E%A98c&enc=utf-8&spm=a.0.0&pvid=c7c01be7f9fe492684a0da7181053a48
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://search.jd.com
+1540356989182	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://search.jd.com/Search?keyword=%E5%8D%8E%E4%B8%BA%E8%8D%A3%E8%80%80%E7%95%85%E7%8E%A98c&enc=utf-8&spm=a.0.0&pvid=c7c01be7f9fe492684a0da7181053a48
+1540356989381	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://search.jd.com/Search?keyword=%E5%8D%8E%E4%B8%BA%E8%8D%A3%E8%80%80%E7%95%85%E7%8E%A98c&enc=utf-8&spm=a.0.0&pvid=c7c01be7f9fe492684a0da7181053a48
+1540356992023	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540357010829	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+1540357485284	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540357940367	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/8535863.html
+1540357940670	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/8535863.html
+1540357940671	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/8535863.html
+1540357941633	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540357953272	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://item.jd.com
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540358907679	Marionette	DEBUG	[2147483683] Frame script loaded
+1540358907737	Marionette	DEBUG	[2147483683] Frame script registered
+1540358907795	Marionette	DEBUG	[2147483686] Frame script loaded
+1540358907861	Marionette	DEBUG	[2147483686] Frame script registered
+1540359870961	Marionette	INFO	Stopped listening on port 42817
+1540386529849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YGEJOJmHSe2U"
+1540386542110	Marionette	INFO	Listening on port 44221
+1540386542498	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540386542622	Marionette	DEBUG	[2147483649] Frame script loaded
+1540386543047	Marionette	DEBUG	[2147483649] Frame script registered
+1540386554986	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540386555304	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540386557919	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540386565285	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+
+(/usr/lib/firefox/firefox:5956): dconf-WARNING **: 21:09:25.723: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+1540386597840	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/8535863.html
+1540386598089	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/8535863.html
+1540386598101	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/8535863.html
+1540386598646	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540386605662	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+1540386607677	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/8535863.html
+1540386607876	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/8535863.html
+1540386607883	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/8535863.html
+1540386608377	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540386611322	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+1540386613330	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/8535863.html
+1540386613448	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/8535863.html
+1540386613448	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/8535863.html
+1540386614040	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540386617374	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x140011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1540386625479	Marionette	INFO	Stopped listening on port 44221
+1540386662953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UjTQtxWgNyt5"
+1540386665409	Marionette	INFO	Listening on port 33547
+1540386665512	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540386665600	Marionette	DEBUG	[2147483649] Frame script loaded
+1540386665602	Marionette	DEBUG	[2147483649] Frame script registered
+1540386683827	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1540386684080	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1540386685169	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540386692310	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html
+
+(/usr/lib/firefox/firefox:6216): dconf-WARNING **: 21:11:32.660: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+1540387086664	Marionette	DEBUG	[2147483653] Frame script loaded
+1540387086716	Marionette	DEBUG	[2147483653] Frame script registered
+1540387086798	Marionette	DEBUG	[2147483656] Frame script loaded
+1540387086817	Marionette	DEBUG	[2147483656] Frame script registered
+1540387315109	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/8535863.html#!
+1540387315584	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/8535863.html#!
+1540387315585	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/8535863.html#!
+1540387317476	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/8535863.html#!
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540387330273	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/8535863.html#!
+1540387602005	Marionette	DEBUG	[2147483649] Received DOM event popstate for https://item.jd.com/8535863.html#none
+1540387651349	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/8535863.html#none
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1540387651688	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/8535863.html#none
+1540387651689	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/8535863.html#none
+1540387653144	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/100000504488.html#crumb-wrap
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+1540387661058	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/100000504488.html#crumb-wrap
+1540387828414	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://item.jd.com/100000504488.html#crumb-wrap
+1540387828725	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://item.jd.com/100000504488.html#crumb-wrap
+1540387828732	Marionette	DEBUG	[2147483649] Received DOM event unload for https://item.jd.com/100000504488.html#crumb-wrap
+1540387830872	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://item.jd.com/7437788.html
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: https://cd.jd.com/yanbao/v3?callback=yanbao_jsonp_callback&skuId=7437788&cat=9987%2C653%2C655&brandId=18374&area=1_72_2799_0, line 1: TypeError: yanbao_jsonp_callback is not a function
+1540387840686	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://item.jd.com/7437788.html
+1540387931239	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1540387967972	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cart.jd.com/addToCart.html?rcd=1&pid=7437788&pc=1&eb=1&rid=1540387931592&em=
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1540387968245	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cart.jd.com/addToCart.html?rcd=1&pid=7437788&pc=1&eb=1&rid=1540387931592&em=
+1540387968250	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cart.jd.com/addToCart.html?rcd=1&pid=7437788&pc=1&eb=1&rid=1540387931592&em=
+1540387969790	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://cart.jd.com/cart.action?r=0.3918850382425908
+1540387973361	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://cart.jd.com/cart.action?r=0.3918850382425908
+1540388050174	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540388191953	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://cart.jd.com/cart.action?r=0.3918850382425908
+1540388192218	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://cart.jd.com/cart.action?r=0.3918850382425908
+1540388192219	Marionette	DEBUG	[2147483649] Received DOM event unload for https://cart.jd.com/cart.action?r=0.3918850382425908
+1540388192561	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1540388193132	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://passport.jd.com/new/login.aspx
+1540388194488	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://passport.jd.com/new/login.aspx
+1540388213145	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540388391347	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540388405740	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1540388510862	Marionette	DEBUG	[2147483670] Frame script loaded
+1540388510876	Marionette	DEBUG	[2147483670] Frame script registered
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1540388982657	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.jd.com/
+1540388982941	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.jd.com/
+1540388982942	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.jd.com/
+1540388985209	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.jd.com/
+1540388985429	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.jd.com/
+1540389368782	Marionette	DEBUG	[2147483670] Received DOM event beforeunload for https://cart.jd.com/cart.action#none
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1540389369285	Marionette	DEBUG	[2147483670] Received DOM event pagehide for https://cart.jd.com/cart.action#none
+1540389369286	Marionette	DEBUG	[2147483670] Received DOM event unload for https://cart.jd.com/cart.action#none
+1540389370958	Marionette	DEBUG	[2147483670] Received DOM event DOMContentLoaded for https://trade.jd.com/shopping/order/getOrderInfo.action?rid=1540389369056
+1540389374274	Marionette	DEBUG	[2147483670] Received DOM event pageshow for https://trade.jd.com/shopping/order/getOrderInfo.action?rid=1540389369056
+1540389536437	Marionette	DEBUG	[2147483670] Received DOM event beforeunload for https://trade.jd.com/shopping/order/getOrderInfo.action?rid=1540389369056
+1540389537126	Marionette	DEBUG	[2147483670] Received DOM event pagehide for https://trade.jd.com/shopping/order/getOrderInfo.action?rid=1540389369056
+1540389537128	Marionette	DEBUG	[2147483670] Received DOM event unload for https://trade.jd.com/shopping/order/getOrderInfo.action?rid=1540389369056
+1540389538399	Marionette	DEBUG	[2147483670] Received DOM event DOMContentLoaded for https://pcashier.jd.com/cashier/index.action?orderId=81376118191&reqInfo=eyJ2ZXJzaW9uIjoiMy4wIiwib3JkZXJJZCI6IjgxMzc2MTE4MTkx ... 9c0bc091ba33ca21ac0cccf9ab31143&suc_orderid=81376118191&suc_ordertype=0&suc_paymenttype=4&suc_sku=7437788:1&rid=1540389536656
+1540389541386	Marionette	DEBUG	[2147483670] Received DOM event pageshow for https://pcashier.jd.com/cashier/index.action?orderId=81376118191&reqInfo=eyJ2ZXJzaW9uIjoiMy4wIiwib3JkZXJJZCI6IjgxMzc2MTE4MTkx ... 9c0bc091ba33ca21ac0cccf9ab31143&suc_orderid=81376118191&suc_ordertype=0&suc_paymenttype=4&suc_sku=7437788:1&rid=1540389536656
+1540389632132	Marionette	DEBUG	[2147483670] Received DOM event beforeunload for https://pcashier.jd.com/cashier/index.action?orderId=81376118191&reqInfo=eyJ2ZXJzaW9uIjoiMy4wIiwib3JkZXJJZCI6IjgxMzc2MTE4MTkx ... 9c0bc091ba33ca21ac0cccf9ab31143&suc_orderid=81376118191&suc_ordertype=0&suc_paymenttype=4&suc_sku=7437788:1&rid=1540389536656
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1540389632809	Marionette	DEBUG	[2147483670] Received DOM event pagehide for https://pcashier.jd.com/cashier/index.action?orderId=81376118191&reqInfo=eyJ2ZXJzaW9uIjoiMy4wIiwib3JkZXJJZCI6IjgxMzc2MTE4MTkx ... 9c0bc091ba33ca21ac0cccf9ab31143&suc_orderid=81376118191&suc_ordertype=0&suc_paymenttype=4&suc_sku=7437788:1&rid=1540389536656
+1540389632809	Marionette	DEBUG	[2147483670] Received DOM event unload for https://pcashier.jd.com/cashier/index.action?orderId=81376118191&reqInfo=eyJ2ZXJzaW9uIjoiMy4wIiwib3JkZXJJZCI6IjgxMzc2MTE4MTkx ... 9c0bc091ba33ca21ac0cccf9ab31143&suc_orderid=81376118191&suc_ordertype=0&suc_paymenttype=4&suc_sku=7437788:1&rid=1540389536656
+1540389633128	Marionette	DEBUG	[2147483670] Received observer notification outer-window-destroyed for 2147483679
+1540389633135	Marionette	DEBUG	[2147483670] Received observer notification outer-window-destroyed for 2147483681
+1540389633500	Marionette	DEBUG	[2147483670] Received DOM event DOMContentLoaded for https://pcashier.jd.com/weixin/weixinPage?cashierId=1&orderId=81376118191&sign=ef86ee2d210144a369260598dea8f4ce
+1540389633942	Marionette	DEBUG	[2147483670] Received DOM event pageshow for https://pcashier.jd.com/weixin/weixinPage?cashierId=1&orderId=81376118191&sign=ef86ee2d210144a369260598dea8f4ce
+1540389718886	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for https://www.jd.com/
+1540389719217	Marionette	DEBUG	[2147483649] Received DOM event pagehide for https://www.jd.com/
+1540389719217	Marionette	DEBUG	[2147483649] Received DOM event unload for https://www.jd.com/
+1540389720191	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.jd.com/
+1540389721348	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.jd.com/
+1540389726436	Marionette	INFO	Stopped listening on port 33547
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1540433578018	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rZGdDewzysbY"
+1540433589496	Marionette	INFO	Listening on port 39875
+1540433589610	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7174): dconf-WARNING **: 10:13:12.378: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+[Parent 7002, Gecko_IOThread] WARNING: pipe error (68): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540433606877	Marionette	INFO	Stopped listening on port 39875
+1540433665227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n6wCjPmNUy6q"
+1540433668672	Marionette	INFO	Listening on port 42201
+1540433668758	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7597): dconf-WARNING **: 10:14:32.067: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+[Parent 7542, Gecko_IOThread] WARNING: pipe error (124): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540433708934	Marionette	INFO	Stopped listening on port 42201
+1540433822896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sEow6BmaPrs6"
+1540433827737	Marionette	INFO	Listening on port 36041
+1540433827827	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:7905): dconf-WARNING **: 10:17:08.856: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+[Parent 7776, Gecko_IOThread] WARNING: pipe error (131): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540433897202	Marionette	INFO	Stopped listening on port 36041
+1540433917608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pJ4ufbNH8r5R"
+1540433920336	Marionette	INFO	Listening on port 45091
+1540433920430	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8110): dconf-WARNING **: 10:18:41.359: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+[Parent 8043, Gecko_IOThread] WARNING: pipe error (127): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540434369788	Marionette	INFO	Stopped listening on port 45091
+1540434425386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KqCzGAiw0ARN"
+1540434428227	Marionette	INFO	Listening on port 43651
+1540434428315	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8526): dconf-WARNING **: 10:27:09.374: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8464, Gecko_IOThread] WARNING: pipe error (130): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540434779590	Marionette	INFO	Stopped listening on port 43651
+1540434782237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7clZ113CGI9a"
+1540434785703	Marionette	INFO	Listening on port 33043
+1540434785781	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:8855): dconf-WARNING **: 10:33:06.780: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 8792, Gecko_IOThread] WARNING: pipe error (134): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540435034106	Marionette	INFO	Stopped listening on port 33043
+1540435038106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.U2OdrMrq0KGO"
+1540435041056	Marionette	INFO	Listening on port 33623
+1540435041144	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9127): dconf-WARNING **: 10:37:22.920: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+[Parent 9063, Gecko_IOThread] WARNING: pipe error (130): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540435136042	Marionette	INFO	Stopped listening on port 33623
+1540435138548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zJvdOEoct2Qq"
+1540435141246	Marionette	INFO	Listening on port 43137
+1540435141272	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9339): dconf-WARNING **: 10:39:02.186: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+[Parent 9277, Gecko_IOThread] WARNING: pipe error (130): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540435292767	Marionette	INFO	Stopped listening on port 43137
+1540435295478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u6fk5poFo2cF"
+1540435298174	Marionette	INFO	Listening on port 33763
+1540435298200	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9568): dconf-WARNING **: 10:41:39.358: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+[Parent 9496, Gecko_IOThread] WARNING: pipe error (130): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540435391175	Marionette	INFO	Stopped listening on port 33763
+1540435393859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2ap9jJVchDV8"
+1540435396430	Marionette	INFO	Listening on port 45387
+1540435396480	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9771): dconf-WARNING **: 10:43:18.351: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+JavaScript error: resource:///actors/ContextMenuChild.jsm, line 501: TypeError: doc is null
+JavaScript error: resource:///actors/ContextMenuChild.jsm, line 501: TypeError: doc is null
+JavaScript error: resource:///actors/ContextMenuChild.jsm, line 501: TypeError: doc is null
+JavaScript error: resource:///actors/ContextMenuChild.jsm, line 501: TypeError: doc is null
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 9709, Gecko_IOThread] WARNING: pipe error (127): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540435518308	Marionette	INFO	Stopped listening on port 45387
+1540435520890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XSwtDGBbA81I"
+1540435523601	Marionette	INFO	Listening on port 44655
+1540435523620	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:9997): dconf-WARNING **: 10:45:24.717: Unable to open /var/lib/snapd/desktop/dconf/profile/user: 权限不够
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript warning: https://nfa.jd.com/loadFa_toJson.js?aid=2_163_818-2_232_3431-0_0_3743-2_163_6092-2_163_817-2_163_5395-2_163_5394-0_0_8277&ver=20131107, line 185: unreachable code after return statement
+JavaScript warning: https://marathon.jd.com/misc/js/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://marathon.jd.com/misc/js/base-2011.js?v=201210302125, line 954: TypeError: $.browser is undefined
+JavaScript error: https://marathon.jd.com/misc/js/lib-v1.js?v=201210302125, line 4408: TypeError: $.browser is undefined
+[Parent 9935, Gecko_IOThread] WARNING: pipe error (84): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 9935, Gecko_IOThread] WARNING: pipe error (130): 连接被对方重设: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1540435562227	Marionette	INFO	Stopped listening on port 44655

@@ -10,9 +10,9 @@ def main():
     time.sleep(3)
     driver.find_element_by_link_text('账户登录').click()
     # 填写用户名和密码
-    driver.find_element_by_id('loginname').send_keys('18550085462')
+    driver.find_element_by_id('loginname').send_keys('##用户名')
     time.sleep(1)
-    driver.find_element_by_id('nloginpwd').send_keys('Wjiaming.')
+    driver.find_element_by_id('nloginpwd').send_keys('##密码')
     time.sleep(1)
     driver.find_element_by_id('loginsubmit').click()
     time.sleep(10)

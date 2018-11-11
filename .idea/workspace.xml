@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06aba564-9de7-4a1e-9a5c-6571a688c4ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Firefox.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tesseract_zhihu_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ITjuzi.py" beforeDir="false" afterPath="$PROJECT_DIR$/ITjuzi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +41,7 @@
           <entry key="json" value="2" />
           <entry key="log" value="2" />
           <entry key="png" value="1" />
-          <entry key="py" value="21" />
+          <entry key="py" value="22" />
           <entry key="txt" value="32" />
         </counts>
       </usages-collector>
@@ -55,7 +51,7 @@
           <entry key="Ini" value="1" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="34" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,14 +60,14 @@
           <entry key="dummy" value="9" />
           <entry key="json" value="3" />
           <entry key="log" value="3" />
-          <entry key="py" value="16453" />
+          <entry key="py" value="16498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="21368" />
+          <entry key="Python" value="21413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -81,16 +77,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lagou_jobs/lagou_jobs/spiders/lagou.py">
+        <entry file="file://$PROJECT_DIR$/ITjuzi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-                <marker date="1540648357828" expanded="true" signature="369:373" ph="..." />
-                <marker date="1540648357828" expanded="true" signature="1270:2628" ph="..." />
-                <marker date="1540648357828" expanded="true" signature="2658:2666" ph="..." />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -123,6 +113,7 @@
         <option value="$PROJECT_DIR$/lagou_jobs/lagou_jobs/spiders/lagou.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Lagou_positions.py" />
+        <option value="$PROJECT_DIR$/ITjuzi.py" />
       </list>
     </option>
   </component>
@@ -133,8 +124,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="360" />
-    <option name="y" value="43" />
+    <option name="x" value="262" />
+    <option name="y" value="27" />
     <option name="width" value="1425" />
     <option name="height" value="814" />
   </component>
@@ -295,7 +286,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="360" y="43" width="1425" height="814" extended-state="0" />
+    <frame x="262" y="27" width="1425" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496994" visible="true" weight="0.18419145" />
@@ -570,14 +561,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lagou_jobs/lagou_jobs/spiders/lagou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
             <marker date="1540648357828" expanded="true" signature="369:373" ph="..." />
             <marker date="1540648357828" expanded="true" signature="1270:2628" ph="..." />
             <marker date="1540648357828" expanded="true" signature="2658:2666" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ITjuzi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>

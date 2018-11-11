@@ -11,7 +11,9 @@ import random
 
 class ITjuzi:
     """
-    IT桔子爬虫 爬取117699家公司获投情况
+    IT桔子爬虫 爬取117699家以上公司获投情况
+    IT桔子反爬反的很厉害 选用Selenium 暴力
+    Selenium+Firefox 效率低 但绝对能爬到数据
     """
     def __init__(self):
         # self.option = webdriver.FirefoxOptions

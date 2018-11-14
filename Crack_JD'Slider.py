@@ -11,7 +11,7 @@ import time
 from urllib import request
 
 user = ''
-passwd = '.'
+passwd = ''
 
 
 class CrackSlider:
@@ -45,6 +45,11 @@ class CrackSlider:
         self.driver.find_element_by_xpath('//input[@id="nloginpwd"]').send_keys(self.passwd)
         time.sleep(1.3)
         self.driver.find_element_by_xpath('//a[@id="loginsubmit"]').click()
+
+        locator = (By.CLASS_NAME, 'JDJRV-smallimg')
+        while 'pass' in self.driver.current_url:
+            self.get_image_position()
+            WebDriverWait(self.driver, 5, 0.3).until(EC.presence_of_element_located(locator))
 
     # 获取图形验证的图片，并滑动滑块实现滑块验证处理
     def get_image_position(self):
@@ -99,11 +104,17 @@ class CrackSlider:
         element = self.driver.find_element_by_class_name('JDJRV-slide-inner.JDJRV-slide-btn')
         # 滑动滑块
         ActionChains(self.driver).click_and_hold(on_element=element).perform()
-        # print("x方向的偏移", int(y * 0.4 + 18), 'x:', x, 'y:', y)
-        ActionChains(self.driver).move_to_element_with_offset(to_element=element, xoffset=y, yoffset=0).perform()
+
+        y = int(y) + 3  # 矫正
+        # 运动轨迹
+        track = []
+        track.append(int(7/8 * y))
+        track.append(int(1/8 * y))
+        for x in track:
+            ActionChains(self.driver).move_to_element_with_offset(to_element=element, xoffset=x, yoffset=0).perform()
         # sleep(1)
         ActionChains(self.driver).release(on_element=element).perform()
-        time.sleep(3)
+        time.sleep(2)
 
 
 if __name__ == "__main__":
@@ -112,11 +123,3 @@ if __name__ == "__main__":
         spider.get_login()
     except Exception as e:
         print(e)
-    else:
-        spider.get_image_position()
-    while True:
-        index = int(input('是否成功 如需继续操作按1: '))
-        if index == 1:
-            spider.get_image_position()
-        else:
-            break

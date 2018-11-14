@@ -16,7 +16,7 @@ def main():
     time.sleep(1)
     driver.find_element_by_id('loginsubmit').click()
     time.sleep(10)
-    # 然后会有滑动验证码 目前是人工滑动
+    # 然后会有滑动验证码
 
     # 登陆后去相应页面去抢购
     driver.get('https://item.jd.com/8535863.html')

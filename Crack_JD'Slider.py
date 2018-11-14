@@ -3,13 +3,15 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import numpy as np
 import cv2
 import time
 from urllib import request
 
 user = ''
-passwd = ''
+passwd = '.'
 
 
 class CrackSlider:
@@ -33,7 +35,8 @@ class CrackSlider:
 
     def get_login(self):
         self.driver.get(self.url)
-        time.sleep(10)
+        locator = (By.LINK_TEXT, '账户登录')
+        WebDriverWait(self.driver, 20, 0.5).until(EC.presence_of_element_located(locator))
         self.driver.find_element_by_link_text('账户登录').click()
         time.sleep(1.5)
         self.driver.find_element_by_xpath('//input[@id="loginname"]').clear()
@@ -91,12 +94,6 @@ class CrackSlider:
 
         x, y = np.unravel_index(result.argmax(), result.shape)
         print("x,y:", x, y, 'result.shape:', result.shape)
-
-        # # 显示图片
-        # w, h = block.shape[::-1]
-        # print('\nw:', w, ' h:', h)
-        # show(template, x, y, w, h, block)
-        # show(template, min_val, max_val, min_loc, max_loc, block)
 
         # 获取滑块
         element = self.driver.find_element_by_class_name('JDJRV-slide-inner.JDJRV-slide-btn')

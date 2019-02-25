@@ -1,0 +1,339 @@
+# -*- coding:utf-8 -*-
+
+from lxml import etree
+import json
+import js2py
+import time
+# import PyV8
+import math
+import random
+import execjs
+import requests
+import re
+import codecs
+
+
+JS_PATH = '/decode.js'
+
+
+class Hotel(object):
+    def __init__(self):
+        print 'init'
+        self.expecting_result = {
+            "hotel_name": "",
+            "hotel_type": [],
+            "comment_num": "",
+            "hotel_address": "",
+            "rooms": [],
+        }
+        # room样式
+        self.rooms = {
+            "house_id": "", # data-roomid  re.search(r'\d+', text)
+            "bname": "",  # 特惠大床房
+            "breakfast": "",  # 无早/双早什么的 col4
+            "is_hour_room": False,  # 默认False
+            "agency": "",
+            "size": "",  # 面积
+            "price": {
+                "cnyPrice": "",  # 价格
+                "cnyOriginalPrice": ""  # 原价格
+            },
+            "floor": "",  # 楼层
+            "house_fullmark": 3,  #
+            "bed": "",  # 大床 <td class="\&quot;col3\&quot;">双床&lt;\/td&gt;</td>
+            "pay_type": 3  #
+        }
+
+    def __del__(self):
+        print '__del__'
+
+    def get_hotel_info(self, hotel_id):
+        print 'get_hotel_info'
+        url = 'http://hotels.ctrip.com/hotel/{}.html'.format(hotel_id)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36',
+            'Host': 'hotels.ctrip.com',
+        }
+        response = requests.get(url, headers=headers)
+        print '得到第一个回复'
+        res_html = etree.HTML(response.text)
+        city_id = re.search(r'[Cc]ity[Ii]d=(\d+)', response.text)
+        start_time = re.search(r'[Ss]tart[Tt]ime.*?(\d{4}-\d{2}-\d{2})', response.text)
+        end_time = re.search(r'[Ee]nd[Tt]ime.*?(\d{4}-\d{2}-\d{2})', response.text)
+        city_id2 = res_html.xpath('//input[@id="cityId"]/@value')
+        start_time2 = res_html.xpath('//input[@id="checkIn"]/@value')
+        end_time2 = res_html.xpath('//input[@id="checkOut"]/@value')
+        if city_id:
+            city_id = city_id.group(1)
+        elif len(city_id2):
+            city_id = city_id2[0]
+        if start_time:
+            start_time = start_time.group(1)
+        elif len(start_time2) > 0:
+            start_time = start_time2[0]
+        if end_time:
+            end_time = end_time.group(1)
+        elif len(end_time2) > 0:
+            end_time = end_time2[0]
+        hotel_name = re.search(r'hotelName: "(.+)"', response.text).group(1)
+        open_date = re.search(ur'\d{4}.开业', response.text).group()
+        # hotel_type = re.search(r'hotel_diamond.*?title="(\S+)"', response.text)
+        xml = etree.HTML(response.text)
+        hotel_address = ''.join(xml.xpath('//div[@class="adress"]/span/text()'))
+        hotel_type = xml.xpath('//span[contains(@class, "hotel_diamond")][@id]/@title|//span[contains(@class, "hotel_star")][@id]/@title')
+        if len(hotel_type) > 0:
+            hotel_type = hotel_type[0]
+        else:
+            hotel_type = ''
+        # hotel_name = xml.xpath('')
+
+        self.expecting_result['hotel_name'] = hotel_name
+        self.expecting_result['hotel_type'].append(open_date)
+        self.expecting_result['hotel_type'].append(hotel_type)
+        self.expecting_result['hotel_address'] = hotel_address.strip()
+        # print hotel_address.strip(), hotel_name, hotel_type, open_date
+        # print self.expecting_result
+
+        # 获取ajax数据
+        html = self.get_detail_info(hotel_id, city_id, start_time, end_time)
+        print '得到第二个回复'
+        # print html
+        # print '-'*100
+        result = re.search(r'"html":"(.+?)","isFull', html).group(1).replace('\u000a','').replace('\u0009', '').replace('\\', '')
+        # print 'result: '
+        print result
+        xml_html = etree.HTML(result)
+        table_label = xml_html.xpath('string(//*[@id="J_RoomListTbl"])')
+        print 'table_label', table_label
+        room_nodes = xml_html.xpath('//td[@class="child_name J_Col_RoomName"]')
+        print room_nodes
+        room_nodes.reverse()
+        anceser_roominfo = []
+        for node in room_nodes:
+            room = {}
+            room['price'] = {'cnyOriginalPrice': node.xpath('./@data-price')[0], 'cnyPrice': node.xpath('./@data-pricedisplay')[0]}
+            print room['price']
+            room['house_id'] = re.search(r'\d+', node.xpath('./@data-roomid')[0]).group()
+            room['pay_type'] = node.xpath('./@data-pay')[0]
+            roomInfo = node.xpath('./@data-baseroominfo')
+            if len(roomInfo) > 0:
+                roomInfo = roomInfo[0]
+                anceser_roominfo.append(roomInfo)
+            else:
+                roomInfo = anceser_roominfo[-1]
+                # roomInfo = node.xpath('./../following-sibling::tr/td[@data-baseroominfo]/@data-baseroominfo')
+                # print node.xpath('./..')
+                # data_map = node.xpath('./@data-firstmap') or node.xpath('./@data-idlist')
+                # print data_map
+                # data_map = data_map[0].split(',')
+                # data_map = node.xpath('./@data-firstmap')
+                # print '-'*100
+                # print data_map
+                # print '-'*100
+                # for data in data_map:
+                #     if data != '':
+                #         data = re.search(r'\d+', data).group()
+                #         rule1 = '//td[contains(@data-roomid, "' +data+ '")][@data-baseroominfo]/@data-baseroominfo'
+                #         roomInfo = xml_html.xpath(rule1)
+                #         print rule1, len(roomInfo)
+                #         if len(roomInfo) > 0:
+                #             roomInfo = roomInfo[0]
+            print roomInfo
+            # print type(roomInfo)
+            # jsonDict = json.loads(roomInfo)
+            room['bname'] = re.search(r'[Rr]oom[Nn]ame.*?:.*?"(\S+)"', roomInfo).group(1)
+            # print '-'*100
+            room['bname'] = re.search(r'[^\"]+', room['bname']).group()
+            # print room['bname']
+            # print '-'*100
+            room['house_id'] = re.search(r'[Rr]oom[Ii][Dd].*?(\d+)', roomInfo).group(1)
+            # baseRoomInfo = jsonDict['BaseRoomInfo']
+            room['size'] = re.search(ur'\d+平方米', roomInfo).group()
+            room['floor'] = re.search(ur'span>(\d?.{0,3}?\d层)<span', roomInfo).group(1)
+            room['bed'] = node.xpath('./following-sibling::td[@class="col3"]/text()')[0]
+            room['breakfast'] = node.xpath('following-sibling::td[contains(@class, "col4")]/text()')[0]
+            self.expecting_result['rooms'].append(room)
+        final_result = self.expecting_result
+        print final_result
+        return final_result
+        # result4 = re.findall(r'<td.+?J_Col_RoomName.+?<td>', result)
+        # for info in result4:
+        #     room = {}
+        #     # print '-'*100
+        #     info_xml = etree.HTML(info)
+        #     if re.search(ur'钟点', info):
+        #         room['is_hour_room'] = True
+        #     room['is_hour_room'] = False
+        #     room['price'] = {'cnyPrice': re.search(r'data-price.+?(\d+)', info).group(1), 'cnyOriginalPrice': ''}
+        #     room['breakfast'] = info_xml.xpath('//*[contains(@class, "col4")]/text()')[0]
+        #     room['house_id'] = re.search(r'data-[Rr]oom[Ii]d.+?(\d+)', info).group(1)
+        #     # print info
+        #     size = re.search(ur'\d+-?\d*?平方米', info)
+        #     if size:
+        #         room['size'] = size.group()
+        #     else:
+        #         room['size'] = ''
+        #     # print room['size']
+        #     room['bed'] = info_xml.xpath('//*[contains(@class, "col3")]/text()')[0]
+        #     bname = info_xml.xpath('//*[contains(@class, "title")]/text()')
+        #     if len(bname) > 0:
+        #         bname = bname[0].strip()
+        #     else:
+        #         try:
+        #             bname = re.search(ur"data-baseRoomName='(\S+)'", info).group(1)
+        #         except:
+        #             print '有问题 bname'
+        #             bname = ''
+        #     room['bname'] = bname
+        #     # print room
+        #     self.expecting_result['rooms'].append(room)
+        #     return json.dumps(self.expecting_result)
+
+    def get_detail_info(self, hotel_id, city, start_date, dep_date):
+        print 'get_detail_info'
+        detail_info = {}
+        eleven = self.get_eleven(hotel_id)
+        # use 'eleven' as key to get detail info of each hotel
+        # eleven = 'shitfortestid'
+        info_url = "http://hotels.ctrip.com/Domestic/tool/AjaxHote1RoomListForDetai1.aspx"
+        querystring = {"psid":"","MasterHotelID":"%s"%hotel_id,"hotel":"%s"%hotel_id,"EDM":"F","roomId":"",
+                       "IncludeRoom":"","city":"%s"%city,"showspothotel":"T","supplier":"","IsDecoupleSpotHotelAndGroup":"F",
+                       "contrast":"0","brand":"0","startDate":"%s"%start_date,"depDate":"%s"%dep_date,"IsFlash":"F","RequestTravelMoney":"F",
+                       "hsids":"","IsJustConfirm":"","contyped":"0","priceInfo":"-1","equip":"","filter":"","productcode":"","couponList":"",
+                       "abForHuaZhu":"","defaultLoad":"T","TmFromList":"F","RoomGuestCount":"1,1,0",
+                       "eleven":"%s"%eleven}
+        payload = '''psid=&MasterHotelID=%s&hotel=%s&EDM=F&roomId=&IncludeRoom=&city=%s
+        &showspothotel=T&supplier=&IsDecoupleSpotHotelAndGroup=F&contrast=0&brand=110&startDate=%s
+        &depDate=%s&IsFlash=F&RequestTravelMoney=F&hsids=&IsJustConfirm=&contyped=0&priceInfo=-1
+        &equip=&filter=&productcode=&couponList=&abForHuaZhu=&defaultLoad=T&TmFromList=F
+        &RoomGuestCount=1,1,0&eleven=%s'''%(hotel_id, hotel_id, city, start_date, dep_date, eleven)
+        headers = {
+            'content-type': "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW",
+            'Accept': "*/*",
+            'User-Agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36",
+            'Postman-Token': "3aa8586c-caee-45a7-8cfd-5d2cbee1df43",
+            'Accept-Encoding': "gzip, deflate",
+            'Accept-Language': "zh-CN,zh;q=0.9,en;q=0.8",
+            'Cache-Control': "no-cache",
+            'Connection': "keep-alive",
+            'Content-Type': "application/x-www-form-urlencoded; charset=utf-8",
+            'Host': "hotels.ctrip.com",
+            'If-Modified-Since': "Thu, 01 Jan 1970 00:00:00 GMT",
+            'Referer': "http://hotels.ctrip.com/hotel/%s.html?isFull=F"%hotel_id,
+        }
+        html = requests.request("GET", info_url, data=payload, headers=headers, params=querystring).content.decode('utf8')
+        return html
+
+    # python模拟的函数
+    def get_ocean_ball_python(self):
+        oceanball = 'http://hotels.ctrip.com/domestic/cas/oceanball?callback=%s&_=%s'
+        t = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+        o = "CAS"
+        n = 0
+        while n < 15:
+            i = math.ceil(51 * random.random())
+            # print i, int(i)
+            o += t[int(i)]
+            n += 1
+        current_time = int(time.time()*1000)
+        oceanball = oceanball%(o, current_time)
+        return (oceanball, o)
+
+    # 调用js的函数 在Flask里调用失败
+    def get_oceanball(self):
+        print 'get_oceanball0'
+        oceanball = 'http://hotels.ctrip.com/domestic/cas/oceanball?callback=%s&_=%s'
+        f = open(JS_PATH)
+        print 'execjs0'
+        self.get_redirect_href()
+        print 'execjs1'
+        callback_js = f.read()
+        print 'oceanball1'
+        try:
+            ctxt = PyV8.JSContext()
+        except Exception:
+            print 'error1  !'
+        print 'oceanball2'
+        try:
+            ctxt.__enter__()
+        except Exception, e:
+            print e.message
+        print 'oceanball3'
+        ctxt.eval('var callback = %s'%callback_js)
+        ctxt.eval('cas = callback(15)')
+        ctxt.eval('var current_time = (new Date).getTime()')
+        print 'oceanball4'
+        vars = ctxt.locals
+        cas = vars.cas
+        current_time = vars.current_time
+        # with PyV8.JSContext() as ctxt:
+        #     ctxt.eval('var callback = %s'%callback_js)
+        #     ctxt.eval('cas = callback(15)')
+        #     ctxt.eval('var current_time = (new Date).getTime()')
+        #     vars = ctxt.locals
+        #     cas = vars.cas
+        #     current_time = vars.current_time
+        oceanball = oceanball%(cas, int(current_time))
+        return (oceanball, cas)
+
+    def get_eleven(self, hotel_id):
+        print 'get_eleven1'
+        oceanball, cas = self.get_ocean_ball_python()
+        print 'get_eleven2'
+        ocean = requests.get(oceanball).content.decode('utf8')
+        ocean = ocean.replace('eval','JSON.stringify')
+        js_ocean = js2py.eval_js(ocean)
+        js_ocean = js_ocean.replace(cas, 'eleven=' + cas).replace('\\', '')
+        js_ocean = re.search(r'"(.+)"', js_ocean).group(1)
+        print js_ocean
+        # print json.dumps(ocean.replace('JSON.stringify', ''))
+        # print json.loads(ocean.replace('JSON.stringify', ''))
+        print 'js代码\n', ocean,'\n'
+        content1 = 'var hotel_id = "%s"; var site = {}; site.getUserAgent = function(){}; var Image = function(){}; var window = {}; window.document = {body:{innerHTML:"1"}, documentElement:{attributes:{webdriver:"1"}}, createElement:function(x){return {innerHTML:"1"}}}; var document = window.document;window.navigator = {"appCodeName":"Mozilla", "appName":"Netscape", "language":"zh-CN", "platform":"Win"}; window.navigator.userAgent = site.getUserAgent(); var navigator = window.navigator; window.location = {}; window.location.href = "http://hotels.ctrip.com/hotel/%s.html"; var location = window.location;'%(str(hotel_id), str(hotel_id))
+        content2 = 'var navigator = {userAgent:{indexOf: function(x){return "1"}}, geolocation:"1"}'
+        content3 = 'var %s = function(x){return x()}'%cas
+        # context = js2py.EvalJs()
+        # print 'js0'
+        # context.execute(js_ocean)
+        # print 'js1'
+        # context.execute(content1)
+        # print 'js2'
+        # context.execute(content2)
+        # print 'js3'
+        # context.execute(content3)
+        # print 'eleven', context.hotel_id
+        print 'js10'
+
+        try:
+            print 'get_eleven3'
+            ctxt = PyV8.JSContext()
+            print 'get_eleven4'
+            ctxt.enter()
+            print 'get_eleven5'
+            ocean = ctxt.eval(ocean)
+        except Exception, e:
+            print e.message
+        ocean = eval(ocean)
+        ocean = ocean.replace(cas, 'eleven=' + cas)
+        ctxt = PyV8.JSContext()
+        with PyV8.JSContext() as ctxt:
+            content1 = 'var hotel_id = "%s"; var site = {}; site.getUserAgent = function(){}; var Image = function(){}; var window = {}; window.document = {body:{innerHTML:"1"}, documentElement:{attributes:{webdriver:"1"}}, createElement:function(x){return {innerHTML:"1"}}}; var document = window.document;window.navigator = {"appCodeName":"Mozilla", "appName":"Netscape", "language":"zh-CN", "platform":"Win"}; window.navigator.userAgent = site.getUserAgent(); var navigator = window.navigator; window.location = {}; window.location.href = "http://hotels.ctrip.com/hotel/%s.html"; var location = window.location;'%(str(hotel_id), str(hotel_id))
+            # content1 = 'var hotel_id = "%s"; var site = {}; site.getUserAgent = function(){}; var Image = function(){}; var window = {}; window.document = {body:{innerHTML:"1"}, documentElement:{attributes:{webdriver:"1"}}, createElement:function(x){return {innerHTML:"1"}}}; var document = window.document;window.navigator = {"appCodeName":"Mozilla", "appName":"Netscape", "language":"zh-CN", "platform":"Win"}; window.navigator.userAgent = site.getUserAgent(); var navigator = window.navigator; window.location = {}; window.location.href = "http://hotels.ctrip.com/hotel/"+hotel_id+".html"; var location = window.location;'%str(hotel_id)
+            content2 = 'var navigator = {userAgent:{indexOf: function(x){return "1"}}, geolocation:"1"}'
+            content3 = 'var %s = function(x){return x()}'%cas
+            print content1,content2,content3
+            ctxt.eval(content1)
+            # ctxt.eval('var div = {innerHTML:"1"};')
+            ctxt.eval(content2)
+            ctxt.eval(content3)
+            ctxt.eval(ocean)
+            vars = ctxt.locals
+            eleven = vars.eleven
+        return eleven
+
+
+if __name__ == '__main__':
+    hotel_id = '441351'  # string
+    # hotel_id = '433981'
+    hotel = Hotel()
+    print json.dumps(hotel.get_hotel_info(hotel_id))
